@@ -22,6 +22,8 @@ $(document).ready(function(){
 
 	// header.css('background-image', backgrounds[0]);
 
+	$('#modest-mouse').hide();
+
 
 	$('#background').animate({opacity: '1'}, 7500);
 

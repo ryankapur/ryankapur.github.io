@@ -25,6 +25,10 @@ text-decoration: none;
     margin: 0;
     padding: 0;
 }
+#header-name {
+    float: left;
+    size: 33px;
+}
 #header-buttons {
     text-align: center;
     padding: 2.5px 2.5px 2.5px 2.5px;
@@ -72,6 +76,7 @@ html, body {	/*the outer layer of the site and global style attributes*/
     background: #edeae5;
     max-width: 100%;
     overflow-x: hidden;
+    opacity: 1;
 }
 #background {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -80,7 +85,7 @@ html, body {	/*the outer layer of the site and global style attributes*/
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     /*http://stackoverflow.com/questions/23180504/css-opacity-change-on-div-with-time-delay-not-user-interaction*/
 /*    -webkit-animation: smooth 1.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
     -moz-animation: smooth 1.7s ease-in;
@@ -106,14 +111,16 @@ html, body {	/*the outer layer of the site and global style attributes*/
     font-size: 48px;
 }
 #link {
-    background: blue;
-    color: white;
-    width: 10%;
+    background: #f2f8fd;
+    color: black;
+    height: 55px;
+    padding: 5px 5px 5px 5px;
+/*    width: 10%;
     float: center;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 2px;
-    margin-top: 10px;
+    margin-top: 10px;*/
 }
 #container {
     position: fixed;
@@ -205,7 +212,6 @@ html, body {	/*the outer layer of the site and global style attributes*/
 #cancel {
     margin-right: 5%;
 }
-
 .button {
     text-align: center;
     line-height: 23px;
@@ -222,10 +228,6 @@ html, body {	/*the outer layer of the site and global style attributes*/
     padding: 20px;
     font-weight: 700;
 }
-
-
-
-
 #wavy_name {
     height: 8%;
     max-width: 500px;
@@ -248,4 +250,8 @@ path {
         opacity: 1;
         color:black;
     }
+}
+#modest-mouse {
+    margin-left: -20px;
+    padding: 40px 40px;
 }

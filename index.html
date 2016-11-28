@@ -3,11 +3,12 @@
 	<div id="content">
 		<div id="header">
 			<div id="header-buttons">
-				<div id="header-name" class="button">Ryan Kapur</div>
+				<div id="music" class="button">Music</div>
 				<div id="personal" class="button">Media</div>
 				<div id="resume" class="button">Resume</div>
 				<div id="bio" class="button">Bio</div>
 				<div id="projects" class="button">Projects</div>
+				<div id="header-name" class="button">Ryan Kapur</div>
 				<div class "ryan-content"> 
 					<a href="https://www.linkedin.com/in/ryankapur" target="_blank" class="imagez">
 						<img class="ryan-headshot" src="https://pbs.twimg.com/profile_images/701976440472891392/s32Bcy0M.jpg">
@@ -26,6 +27,13 @@
 <script src="assets/jquery-1.9.1.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
 <script src="assets/script.js"></script>
+<script type="text/javascript">
+    $(function(){
+      $("#music").click(function () {
+        $("#modest-mouse").toggle("slow");
+      });
+    });
+</script>
 <body>
 	<!-- FB button preprocess -->
 	<div id="fb-root"></div>
@@ -45,6 +53,9 @@
 			<div id="heading">Computer Science</div>
 			<div id="subheading">UC Berkeley</div>
 			<div id="subheading">Seeking Full-Time</div>
+		</div>
+		<div id="modest-mouse">
+			<iframe src="https://embed.spotify.com/?uri=spotify:track:4ToYlykhwpW98KtMIGnWQK" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
 		</div>
 	</div>
 
@@ -105,11 +116,12 @@
 		</svg>
 	</div>
 
-
+	<div id="tba">
+		<div id="modest-mouse">
+			<iframe src="https://embed.spotify.com/?uri=spotify:track:4ToYlykhwpW98KtMIGnWQK" width="250" height="80" frameborder="0" allowtransparency="true"></iframe>
+		</div>
+	</div>
 		
-
-
-
 
 	<div id="footer">
 		<div id="footer-buttons">
