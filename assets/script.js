@@ -23,7 +23,7 @@ $(document).ready(function(){
 	// header.css('background-image', backgrounds[0]);
 
 
-	$('#background').animate({opacity: '1'}, 3000);
+	$('#background').animate({opacity: '1'}, 7500);
 
 
 	// Hover over things
