@@ -55,6 +55,14 @@ text-decoration: none;
     height: 100%;
 }
 
+.ryan-headshot {
+    border-radius: 50%;
+    border-color: #002080;
+    height: 10%;
+    position: absolute;
+    padding: 50px;
+}
+
 /* Freebies */
 
 html, body {	/*the outer layer of the site and global style attributes*/
@@ -190,6 +198,7 @@ html, body {	/*the outer layer of the site and global style attributes*/
     font-size: 12px;
     font-weight: 700;
     color: white;
+    text-align: center;
 }
 .credentials::-webkit-input-placeholder  {
     color: white;
