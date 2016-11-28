@@ -1,0 +1,251 @@
+/* Utility Stylesheets */
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+#header {
+    background-color: white;
+    opacity: .5;
+    position: fixed;
+    width: 100%;
+    height: 5%;
+    top: 0;
+    z-index: 500;
+    height: 45px;
+}
+
+#footer {
+    background-color:  #002080;
+    opacity: .4;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 2.5%;
+    bottom: 0;
+    z-index: 500;
+    height: 45px;
+    .footer_hover { opacity: .75; color: yellow; }
+}
+
+#footer-buttons {
+    background-color:  #002080;
+    opacity: .2;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    height: 2.5%;
+    bottom: 0;
+    z-index: 500;
+    height: 45px;
+    .footer_hover { opacity: .75; color: yellow; }
+}
+
+.clear {
+    clear: both;
+}
+
+.img-scaled {
+    width: 100%;
+}
+
+.img-scaled-wh {
+    width: 100%;
+    height: 100%;
+}
+
+/* Freebies */
+
+html, body {	/*the outer layer of the site and global style attributes*/
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0px;
+    background: #edeae5;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#background {
+    opacity: 0.12;
+    background: url('background.jpg');
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    /*http://stackoverflow.com/questions/23180504/css-opacity-change-on-div-with-time-delay-not-user-interaction*/
+/*    -webkit-animation: smooth 1.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    -moz-animation: smooth 1.7s ease-in;
+    -o-animation: smooth 1.7s ease-in;
+    -ms-animation: smooth 1.7s ease-in;
+    animation: smooth 1.7s cubic-bezier(0.895, 0.03, 0.685, 0.22);*/
+}
+
+@-webkit-keyframes smooth {
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+#rhs {
+    position: absolute;
+    color: white;
+    bottom: 90px;
+    right: 90px;
+    text-align: right;
+}
+#subheading {
+    font-size: 24px;
+}
+#heading {
+    font-size: 48px;
+}
+#link {
+    background: blue;
+    color: white;
+    width: 10%;
+    float: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+#container {
+    position: absolute;
+    width: 100%;
+    height: 518px;
+    top: 50%;
+    margin-top: -269px;
+}
+#content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+}
+#carousel-prev {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: linear 0.2s;
+}
+#carousel-next {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    top: 50%;
+    right: 0px;
+    margin-top: -30px;
+    cursor: pointer;
+    -webkit-transition: linear 0.2s;
+}
+#carousel-prev:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#carousel-next:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+/* Question 1 */
+
+#modal-container {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+
+#modal-box {
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    background-color: #5485BB;
+    z-index: 100;
+    top: calc(50% - 130px);
+    left: calc(50% - 355px);
+    text-align: center;
+
+}
+
+.credentials  {
+    border: 2px solid white;
+    padding: 10px;
+    background: transparent;
+    margin: 0px;
+    margin-bottom: 20px;
+    width: 460px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+}
+.credentials::-webkit-input-placeholder  {
+    color: white;
+}
+#modal-content {
+    margin: 0 20px;
+    width: 100%;
+}
+#submit {
+    margin-right: 10px;
+}
+#cancel {
+    margin-right: 5%;
+}
+.button {
+    text-align: center;
+    line-height: 30px;
+    margin-right: 20px;
+    float: right;
+    color: #000000;
+    background: white;
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+}
+#modal-header {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
+}
+
+svg {
+    width: 555px;
+    padding: 0px;
+    margin-top: 13%;
+    position: fixed;
+}
+#wavy_name {
+    position: fixed;
+    margin-bottom: 10%;
+    color: yellow;
+}
+
+path {
+    position: fixed;
+    stroke-dasharray: 26;
+    stroke-dashoffset: 1000;
+    animation: dash 4.7s ease-in-out forwards;
+    opacity: .8;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 750;
+        opacity: 1;
+        color:black;
+    }
+}
