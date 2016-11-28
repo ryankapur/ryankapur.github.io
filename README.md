@@ -24,7 +24,7 @@
 	* Cool wavy edgy opening animation emulates the sea
 	* Original yet not too crazy for a personal site
 
-##Next Time
+##Next Steps
 * Clean up the code
 	* Break up the pieces of code (nav.css, etc.)
 	* Seek advice on common practices
@@ -34,6 +34,7 @@
 * Less time animating, more time creating structured code & responsive design
 * Figure out how the hell the animation came to be
 	* Original idea was to have 'Ryan Kapur' persist after animation but this effect lead me towards an SPA design :)
+* Text is ilegible for users who use Ctrl+ to zoom
 * Buy a better camera than a Nikon D30 lol
 
 
@@ -41,17 +42,18 @@
 
 
 ## Opening Animation:
-*Jessica He tutorial
-*https://css-tricks.com/svg-line-animation-works/
-*https://css-tricks.com/css-keyframe-animation-delay-iterations/
+* Jessica He tutorial
+* https://css-tricks.com/svg-line-animation-works/
+* https://css-tricks.com/css-keyframe-animation-delay-iterations/
 
 ## Modal
 -WDD HW assignment
 
-## GoDaddy (note to self: doesn't support Rails wtf)
-*Making GoDaddy hosted domain --> ryankapur.github.io
-	*http://captainwhippet.com/blog/2014/05/11/blog-setup-details.html
+## GoDaddy 
+*(Note to self: GoDaddy doesn't support Rails wtf)*
+* Making GoDaddy hosted domain --> ryankapur.github.io
+	* http://captainwhippet.com/blog/2014/05/11/blog-setup-details.html
 
 
-ⓡⓨⓐⓝ ⓚⓐⓟⓤⓡ **2016**
+ⓡⓨⓐⓝ ⓚⓐⓟⓤⓡ **-2016**
 

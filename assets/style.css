@@ -252,6 +252,9 @@ path {
     }
 }
 #modest-mouse {
-    margin-left: -20px;
-    padding: 40px 40px;
+    float: right;
+    margin-right: -150px;
+    padding: 66px 40px;
+    transform: scale(0.62); 
+    transform-origin: 0 0;
 }
