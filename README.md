@@ -1,12 +1,25 @@
 README
 
-A brief summary of Works Cited in creating my first personal website as part of the Web Design Decal at UC Berkeley in Fall 2016.
+*A brief summary of Design Decisions and Works Cited in creating my first personal website as part of the Web Design Decal at UC Berkeley in Fall 2016.*
 
 
-Modal
+# Design Decisions:
+* Cuprum and Open Sans paring
+	*Cuprum is very succint but readable
+	*Open Sans is familiar and pretty nice
+* Ocean theme
+	* I took the photo in Greece in 2012
+	* Cool wavy edgy opening animation emulates the sea
+	* Original yet not too crazy for a personal site
+
+
+
+## Works Cited
+
+# Modal
 -WDD HW assignment
 
-Opening Animation:
+# Opening Animation:
 -Jessica He tutorial
 -https://css-tricks.com/svg-line-animation-works/
 -https://css-tricks.com/css-keyframe-animation-delay-iterations/
