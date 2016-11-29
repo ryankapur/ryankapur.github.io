@@ -32,12 +32,16 @@ $(document).ready(function(){
 	$('#projects').click(function() {
 			console.log('show');
 			$('#project-bit').toggle();
+			$('#bio-bit').hide();
+
 		})
 
 
 	$('#bio').click(function() {
 			console.log('show');
 			$('#bio-bit').toggle();
+			$('#project-bit').hide();
+
 		})
 
 

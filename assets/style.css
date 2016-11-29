@@ -15,7 +15,7 @@ text-decoration: none;
 
 .bit {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: white;
+    color: #f2f8fd;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -25,11 +25,12 @@ text-decoration: none;
 }
 .list-container {
     opacity: .5;
-    background-color: grey;
+    background-color: #f2f8fd;
     margin: 11px 255px 33px 255px;
     padding: 1px 0px 1px 0px;
 }
 .list-title {
+    color: #002080;
     font-family: 'Cuprum', sans-serif;
     font-size: 133%;
     padding: 6px 0px 6px 18px;
@@ -39,9 +40,9 @@ text-decoration: none;
     margin: 5px 5px 11px 5px;
 }
 .list-item {
-    padding: 11px 0px 11px 0px;
+    padding: 11px 5px 11px 5px;
     margin: 6px 6px 1px 6px;
-    background-color: black;
+    background-color: #002080;
 }
 
 .list-item:hover {
