@@ -39,6 +39,12 @@ text-decoration: none;
     background-color: white;
     position: relative;
 }
+#fb-like {
+    float: left;
+}
+#fb-save {
+    float: left
+}
 #footer {
     background-color:  #f2f8fd;
     position: fixed;
