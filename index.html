@@ -28,6 +28,7 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
 <link rel="icon" href="assets/logo.png">
 <script src="assets/jquery-1.9.1.js"></script>
+<script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
 <script src="assets/script.js"></script>
 <script type="text/javascript">
@@ -70,13 +71,18 @@
 				<div id="modal-content">
 					<input type = "text" class = "credentials" placeholder = "Name"/>
 					<input type = "password" class = "credentials" placeholder = "Email"/>
-
-
 				</div>
+
 				<div id="modal-footer">
 					<div id="submit" class="button">Submit</div>
 					<div id="cancel" class="button">Cancel</div>
 				</div>
+
+				<div class="grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+				  <div class="grid-item">Kobe</div>
+				  <div class="grid-item">Fisher</div>
+				</div>
+
 			</div>
 	</div>
 
@@ -121,10 +127,18 @@
 
 	<div id="footer">
 		<div id="footer-buttons">
+			<a href="https://ryankapur.github.io/README.md" target="_blank" class="imagez">
+				<div id="site info" class="button">site info</div>
+			</a>
+			<a href="https://github.com/ryankapur" target="_blank" class="imagez">
+				<div id="github" class="button">github</div>
+			</a>
+			<a href="https://www.linkedin.com/in/ryankapur" target="_blank" class="imagez">
+				<div id="linkedin" class="button">linkedin</div>
+			</a>
 
-			<div id="linkedin" class="button">linkedin</div>
-			<div id="github" class="button">github</div>
 			<div id="link">Contact Me</div>
+			
 			<!-- FB button -->
 			<div class="fb-save" data-uri="ryankapur.com" data-size="small"></div>
 			<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>

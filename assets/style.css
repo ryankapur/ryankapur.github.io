@@ -111,14 +111,14 @@ html, body {	/*the outer layer of the site and global style attributes*/
     font-size: 48px;
 }
 #link {
+    text-align: center;
     background: #f2f8fd;
     color: black;
-    height: 55px;
     padding: 5px 5px 5px 5px;
+    cursor: pointer;
 /*    width: 10%;
     float: center;
     padding: 10px 20px;
-    cursor: pointer;
     border-radius: 2px;
     margin-top: 10px;*/
 }
@@ -214,7 +214,7 @@ html, body {	/*the outer layer of the site and global style attributes*/
 }
 .button {
     text-align: center;
-    line-height: 23px;
+    line-height: 20px;
     margin-right: 20px;
     float: right;
     color: #000000;
@@ -258,3 +258,12 @@ path {
     transform: scale(0.62); 
     transform-origin: 0 0;
 }
+.grid-item {
+  float: left;
+  width: 80px;
+  height: 60px;
+  border: 2px solid hsla(0, 0%, 0%, 0.5);
+}
+
+.grid-item--width2 { width: 160px; }
+.grid-item--height2 { height: 140px; }

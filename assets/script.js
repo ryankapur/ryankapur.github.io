@@ -28,6 +28,25 @@ $(document).ready(function(){
 	$('#background').animate({opacity: '1'}, 7500);
 
 
+	// Masonary
+	$('.grid').masonry({
+	  // options...
+	  itemSelector: '.grid-item',
+	  columnWidth: 200
+	});
+
+	var grid = document.querySelector('.grid');
+	var msnry = new Masonry( grid, {
+	  // options...
+	  itemSelector: '.grid-item',
+	  columnWidth: 200
+	});
+
+	// init with selector
+	var msnry = new Masonry( '.grid', {
+	  // options...
+	});
+
 	// Hover over things
 	$('#footer').hover(function(){
 		console.log('hovver');

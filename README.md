@@ -3,6 +3,9 @@
 
 
 ## Design Decisions:
+* Technologies
+	* JQuery
+		* show(), hide(), click(), hover()
 * Positioning
 	* Fitt's Law
 		* Similar buttons are placed adjacent in most logical fashion
