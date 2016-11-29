@@ -56,9 +56,12 @@
 -WDD HW assignment
 
 ## GoDaddy 
-*(Note to self: GoDaddy doesn't support Rails wtf)*
+* (Note to self: GoDaddy doesn't support Rails wtf)*
 * Making GoDaddy hosted domain --> ryankapur.github.io
 	* http://captainwhippet.com/blog/2014/05/11/blog-setup-details.html
+
+## Assorted
+* http://stackoverflow.com/questions/31877572/jquery-fade-loop-with-setinterval
 
 
 ⓡⓨⓐⓝ ⓚⓐⓟⓤⓡ **-2016**

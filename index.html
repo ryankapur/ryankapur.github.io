@@ -13,7 +13,6 @@
 				</a>
 
 
-		
 
 				<div id="bio" class="button">bio</div>
 				<div id="projects" class="button">projects</div>
@@ -28,7 +27,6 @@
 			</div>
 		</div>
 		<div id="tba">
-			
 		</div>
 	</div>
 
@@ -39,8 +37,8 @@
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600" rel="stylesheet" type="text/css">
 <link rel="icon" href="assets/logo.png">
 <script src="assets/jquery-1.9.1.js"></script>
-<script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
-<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
+<!-- <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+ --><!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>-->
 <script src="assets/script.js"></script>
 <script type="text/javascript">
     $(function(){
@@ -63,8 +61,46 @@
 
 
 	<div id="background">
+		<div id="project-bit" class="bit">
+			<div class="list-container">
+				<div class="list-title">Projects</div>
+				<div class="list-content">
+					<div class="list-item">Rap Game</div>
+					<div class="list-item">Solar Panel Smart House</div>
+					<div class="list-item">SEF Wall of Founders</div>
+					<div class="list-item">AA Android App</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="bio-bit" class="bit">
+			<div class="list-container">
+				<div class="list-title">Bio</div>
+				<div class="list-content">
+					<div class="list-item">Attended Archbishop Mitty College Prep</div>
+					<div class="list-item">Attended Cal as PreMed</div>
+					<div class="list-item">Switched to Computer Science</div>
+					<div class="list-item">Interned at companies, startups, research lab</div>
+				</div>
+			</div>
+		</div>
+
+
+
 		<div id="rhs">
-			<div id="heading">Computer Science</div>
+			<div id="heading" ></div>
+			   <script type="text/javascript">
+			   var text = ["Computer Scientist", "Student", "Inventor", "Marketer", "Music Enthusiast", "UX Engineer", "Software Engineer", "UX Engineer", "Californian & Oregonian", "GBS Foundation Advocate", "World Traveler", "Trendsetter", "Web Design Novice"];
+			   var counter = 0;
+			   var elem = document.getElementById("heading");
+			   setInterval(change, 6690);
+			   function change() {
+			    elem.innerHTML = text[counter];
+			       counter++;
+			       if(counter >= text.length) { counter = 0; }
+			   }
+			   </script>
+
 			<div id="subheading">UC Berkeley</div>
 			<div id="subheading">Seeking Full-Time</div>
 		</div>
@@ -144,8 +180,8 @@
 			<div id="link" class="button">contact</div>
 
 			<!-- FB button -->
-			<div class="fb-save" data-uri="ryankapur.com" data-size="small"></div>
-			<div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
+			<div class="fb-save" class="button" data-uri="ryankapur.com" data-size="small"></div>
+			<div class="fb-like" class="button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
 			
 		</div>
 	</div>

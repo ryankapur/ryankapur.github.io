@@ -22,9 +22,24 @@ $(document).ready(function(){
 
 	// header.css('background-image', backgrounds[0]);
 
-	function showDiv() {
-	   document.getElementById('confirmation').style.display = "block";
-	}
+	
+
+	$('#project-bit').hide();
+	$('#bio-bit').hide();
+
+
+
+	$('#projects').click(function() {
+			console.log('show');
+			$('#project-bit').toggle();
+		})
+
+
+	$('#bio').click(function() {
+			console.log('show');
+			$('#bio-bit').toggle();
+		})
+
 
 	$('#modest-mouse').hide();
 
@@ -32,49 +47,27 @@ $(document).ready(function(){
 	$('#background').animate({opacity: '1'}, 7500);
 
 
-	// Masonary
-	$('.grid').masonry({
-	  // options...
-	  itemSelector: '.grid-item',
-	  columnWidth: 200
-	});
 
-	var grid = document.querySelector('.grid');
-	var msnry = new Masonry( grid, {
-	  // options...
-	  itemSelector: '.grid-item',
-	  columnWidth: 300
-	});
-
-	// init with selector
-	var msnry = new Masonry( '.grid', {
-	  // options...
-	});
 
 	// Hover over things
-	$('#top-pic').hover(function(){
-		console.log('hovver');
-		$('#top-pic').hide('#top-pic');
-		})
-	;
+	// $('#top-pic').hover(function(){
+	// 	console.log('hovver');
+	// 	$('#top-pic').hide('#top-pic');
+	// 	})
+	// ;
 
 
-
-	// IMPLEMENT "SHOW MODAL" WHEN "CLICK ON LOGIN BUTTON FROM MAIN PAGE" HERE
+	// Modal stuff
 	$('#link').click(function() {
 			console.log('show');
 			$('#modal-container').show();
 		})
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON SUBMIT BUTTON FROM MODAL BOX" HERE
 	$('#submit').click(function() {
 			$('#modal-container').hide();
 		})
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON CANCEL BUTTON FROM MODAL BOX" HERE
 	$('#cancel').click(function() {
 		$('#modal-container').hide();
 	})
-	// Question 5
-	// IMPLEMENT "HIDE MODAL" WHEN "CLICK ON MODAL OVERLAY" HERE
 	$('#modal-overlay').click(function() {
 		$('#modal-container').hide();
 	})
