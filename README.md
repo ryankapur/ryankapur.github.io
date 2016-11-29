@@ -23,11 +23,14 @@
 	* Cuprum is very succint but readable
 	* Open Sans is familiar and pretty nice
 * Ocean theme
+	* Ocean Breathes Salty
 	* I took the photo in Greece in 2012
 	* Cool wavy edgy opening animation emulates the sea
 	* Original yet not too crazy for a personal site
 
 ##Next Steps
+* End Goal
+	* Each button will host the information on the SPA rather than redirecting
 * Clean up the code
 	* Break up the pieces of code (nav.css, etc.)
 	* Seek advice on common practices
@@ -35,7 +38,7 @@
 		* Don't put it in HTML
 		* Use .hasClass(), .addClass(), etc.
 * Less time animating, more time creating structured code & responsive design
-* Figure out how the hell the animation came to be
+* Figure out how to enhance animation fade using HCI concepts
 	* Original idea was to have 'Ryan Kapur' persist after animation but this effect lead me towards an SPA design :)
 * Text is ilegible for users who use Ctrl+ to zoom
 * Buy a better camera than a Nikon D30 lol

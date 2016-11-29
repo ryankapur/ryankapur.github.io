@@ -22,6 +22,10 @@ $(document).ready(function(){
 
 	// header.css('background-image', backgrounds[0]);
 
+	function showDiv() {
+	   document.getElementById('confirmation').style.display = "block";
+	}
+
 	$('#modest-mouse').hide();
 
 
@@ -39,7 +43,7 @@ $(document).ready(function(){
 	var msnry = new Masonry( grid, {
 	  // options...
 	  itemSelector: '.grid-item',
-	  columnWidth: 200
+	  columnWidth: 300
 	});
 
 	// init with selector
@@ -48,9 +52,9 @@ $(document).ready(function(){
 	});
 
 	// Hover over things
-	$('#footer').hover(function(){
+	$('#top-pic').hover(function(){
 		console.log('hovver');
-		$('#footer').toggleClass('footer_hover');
+		$('#top-pic').hide('#top-pic');
 		})
 	;
 
