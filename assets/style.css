@@ -5,7 +5,7 @@ text-decoration: none;
 }
 .ryan-headshot {
     float: left;
-    margin-left: 8;
+    margin-left: 10;
 /*    padding: 2.5px 2.5px 2.5px 2.5px;
 */   border-radius: 50%;
     border-color: #002080;
@@ -75,11 +75,10 @@ text-decoration: none;
     background-color: white;
     position: relative;
 }
-#fb-like {
-    float: left;
-}
+
 #fb-save {
-    float: left
+    float: left;
+    padding-left: 10px;
 }
 #footer {
     background-color:  #f2f8fd;
@@ -211,6 +210,14 @@ html, body {    /*the outer layer of the site and global style attributes*/
 #carousel-next:hover {
     background: rgba(0, 0, 0, 0.9);
 }
+#confirm-email {
+    font-family: Arial;
+    font-style: italic;;
+    color: white;
+    bottom: 0px;
+    float: left;
+    padding-left: 20px;
+}
 #modal-container {
     font-family: Arial;
     display: none;
@@ -223,17 +230,18 @@ html, body {    /*the outer layer of the site and global style attributes*/
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,.3);
+    opacity: 1;
+
 }
 #modal-box {
     margin-left: auto;
     margin-right: auto;
     position: absolute;
     width: 500px;
-    height: 260px;
+    height: 50%;
     background-color: #002080;
-    opacity: .85;
     z-index: 100;
-    top: calc(50% - 140px);
+    top: calc(50% - 220px);
     left: calc(50% - 355px);
     text-align: center;
 }
@@ -242,6 +250,7 @@ html, body {    /*the outer layer of the site and global style attributes*/
     padding: 10px 10px 10px 10px;
     background: transparent;
     margin: 0px;
+    margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
     width: 460px;
@@ -257,6 +266,11 @@ html, body {    /*the outer layer of the site and global style attributes*/
     margin: 0 0px;
     width: 100%;
 }
+#modal-footer {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-right: 15px;
+}
+
 #submit {
     margin-right: 10px;
 }

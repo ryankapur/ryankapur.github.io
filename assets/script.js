@@ -2,45 +2,35 @@ $(document).ready(function(){
 
 
 
-	// var header = $('body');
 
-	// var backgrounds = new Array(
-	//     'url(http://placekitten.com/10)'
-	//   , 'url(http://placekitten.com/535)'
-	//   , 'url(http://placekitten.com/300)'
-	//   , 'url(http://placekitten.com/400)'
-	// );
 
-	// var current = 0;
+	$('#header').show();
 
-	// function nextBackground() {
-	//     current++;
-	//     current = current % backgrounds.length;
-	//     header.css('background-image', backgrounds[current]);
-	// }
-	// setInterval(nextBackground, 1000);
-
-	// header.css('background-image', backgrounds[0]);
-
-	
 
 	$('#project-bit').hide();
 	$('#bio-bit').hide();
+	$('#modal-container').hide();
 
+	$('#background').click(function() {
+		$('#project-bit').hide();
+		$('#bio-bit').hide();
+		$('#modal-container').hide();
+	})
 
 
 	$('#projects').click(function() {
 			console.log('show');
-			$('#project-bit').toggle();
+			$('#modal-container').hide();
 			$('#bio-bit').hide();
+			$('#project-bit').toggle();
 
 		})
 
 
 	$('#bio').click(function() {
 			console.log('show');
-			$('#bio-bit').toggle();
 			$('#project-bit').hide();
+			$('#bio-bit').toggle();
 
 		})
 
@@ -65,6 +55,9 @@ $(document).ready(function(){
 	$('#link').click(function() {
 			console.log('show');
 			$('#modal-container').show();
+			$('#project-bit').hide();
+			$('#bio-bit').hide();
+
 		})
 	$('#submit').click(function() {
 			$('#modal-container').hide();

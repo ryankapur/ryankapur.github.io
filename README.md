@@ -63,6 +63,9 @@
 ## Assorted
 * http://stackoverflow.com/questions/31877572/jquery-fade-loop-with-setinterval
 
+##TODO
+* http://stackoverflow.com/questions/2329816/jquery-hide-popup-if-click-detected-elsewhere
+
 
 ⓡⓨⓐⓝ ⓚⓐⓟⓤⓡ **-2016**
 
