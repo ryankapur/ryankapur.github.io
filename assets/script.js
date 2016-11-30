@@ -1,12 +1,6 @@
 $(document).ready(function(){
 
 
-
-
-
-	// $('#header').show();
-
-
 	$('#project-bit').hide();
 	$('#bio-bit').hide();
 	$('#modal-container').hide();
@@ -23,15 +17,13 @@ $(document).ready(function(){
 
 	$('#background').click(function() {
 		$('.bit').hide();
+		$('#modest-mouse').hide();
 		$('#modal-container').hide();
 	})
 
 	$('#first-steps').click(function() {
 		$('#first-steps').fadeToggle('fast');
-
 	})
-
-
 
 
 	$('#projects').click(function() {
