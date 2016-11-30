@@ -4,18 +4,32 @@ $(document).ready(function(){
 
 
 
-	$('#header').show();
+	// $('#header').show();
 
 
 	$('#project-bit').hide();
 	$('#bio-bit').hide();
 	$('#modal-container').hide();
+	$('#first-steps').hide();
+
+	$('#aa-button').click(function() {
+			console.log('show');
+			$('#modal-container').hide();
+			$('.bit').hide();
+			$('#first-steps').toggle();
+		})
 
 	$('#background').click(function() {
-		$('#project-bit').hide();
-		$('#bio-bit').hide();
+		$('.bit').hide();
 		$('#modal-container').hide();
 	})
+
+	$('#first-steps').click(function() {
+		$('#first-steps').fadeToggle('fast');
+
+	})
+
+
 
 
 	$('#projects').click(function() {
@@ -23,6 +37,8 @@ $(document).ready(function(){
 			$('#modal-container').hide();
 			$('#bio-bit').hide();
 			$('#project-bit').toggle();
+			$('#first-steps').hide();
+
 
 		})
 
@@ -31,6 +47,8 @@ $(document).ready(function(){
 			console.log('show');
 			$('#project-bit').hide();
 			$('#bio-bit').toggle();
+			$('#first-steps').hide();
+
 
 		})
 
@@ -57,6 +75,8 @@ $(document).ready(function(){
 			$('#modal-container').show();
 			$('#project-bit').hide();
 			$('#bio-bit').hide();
+			$('#first-steps').hide();
+
 
 		})
 	$('#submit').click(function() {

@@ -1,11 +1,12 @@
 
 *A brief summary of Design Decisions and Works Cited in creating my first personal website as part of the Web Design Decal at UC Berkeley in Fall 2016.*
 
+** Note: If you are a WDD instructor, please kindly grade the main view, the contact module, and the projects view ! Feel free to email me with any questions.**
 
 ## Design Decisions:
 * Technologies
 	* JQuery
-		* show(), hide(), click(), hover()
+		* show(), hide(), click(), hover(), text(), toggle()
 * Positioning
 	* Fitt's Law
 		* Similar buttons are placed adjacent in most logical fashion
@@ -53,10 +54,10 @@
 * https://css-tricks.com/css-keyframe-animation-delay-iterations/
 
 ## Modal
--WDD HW assignment
+* WDD HW assignment
 
 ## GoDaddy 
-* (Note to self: GoDaddy doesn't support Rails wtf)*
+* *(Note to self: GoDaddy doesn't support Rails wtf)*
 * Making GoDaddy hosted domain --> ryankapur.github.io
 	* http://captainwhippet.com/blog/2014/05/11/blog-setup-details.html
 
