@@ -11,6 +11,8 @@ $(document).ready(function(){
 	$('#bio-bit').hide();
 	$('#modal-container').hide();
 	$('#first-steps').hide();
+	$('#modest-mouse').hide();
+
 
 	$('#aa-button').click(function() {
 			console.log('show');
@@ -48,12 +50,11 @@ $(document).ready(function(){
 			$('#project-bit').hide();
 			$('#bio-bit').toggle();
 			$('#first-steps').hide();
-
-
 		})
 
 
-	$('#modest-mouse').hide();
+
+
 
 
 	$('#background').animate({opacity: '1'}, 7500);
