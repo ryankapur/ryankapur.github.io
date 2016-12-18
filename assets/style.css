@@ -6,13 +6,11 @@ text-decoration: none;
 .ryan-headshot {
     float: left;
     margin-left: 10;
-/*    padding: 2.5px 2.5px 2.5px 2.5px;
-*/   border-radius: 50%;
+    border-radius: 50%;
     border-color: #002080;
     height: 89%;
     text-decoration: underline;
 }
-
 .bit {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f2f8fd;
@@ -46,16 +44,13 @@ text-decoration: none;
     margin: 6px 6px 1px 6px;
     background-color: #002080;
 }
-
 .list-item:hover {
     cursor: pointer;
     opacity: .5;
     -webkit-transform: scale(.95);
 }
-
 #header {
     display: inline-block;
-
     background-color: #f2f8fd;
     opacity: .85;
     position: fixed;
@@ -73,15 +68,13 @@ text-decoration: none;
 #header-name {
     float: left;
     margin-left: 12px;
-/*    size: 33px;
-*/}
+}
 #header-buttons {
     text-align: left;
     padding: 2.5px 2.5px 2.5px 2.5px;
     background-color: white;
     position: relative;
 }
-
 #fb-save {
     float: left;
     padding-left: 10px;
@@ -121,7 +114,6 @@ text-decoration: none;
     width: 100%;
     height: 100%;
 }
-
 html, body {    /*the outer layer of the site and global style attributes*/
     font-family: 'Cuprum', sans-serif;
     margin: 0px;
@@ -150,7 +142,7 @@ html, body {    /*the outer layer of the site and global style attributes*/
     100% { opacity: 1;}
 }
 #rhs {
-    position: absolute;
+    position: fixed;
     color: white;
     bottom: 90px;
     right: 90px;
@@ -192,38 +184,9 @@ html, body {    /*the outer layer of the site and global style attributes*/
     border-radius: 5px;
     overflow: hidden;
 }
-#carousel-prev {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    top: 50%;
-    margin-top: -30px;
-    cursor: pointer;
-    -webkit-transition: linear 0.2s;
-}
-#carousel-next {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
-    top: 50%;
-    right: 0px;
-    margin-top: -30px;
-    cursor: pointer;
-    -webkit-transition: linear 0.2s;
-}
-#carousel-prev:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
-#carousel-next:hover {
-    background: rgba(0, 0, 0, 0.9);
-}
 #confirm-email {
     font-family: Arial;
-    font-style: italic;;
+    font-style: italic;
     color: white;
     bottom: 0px;
     float: left;
@@ -282,9 +245,11 @@ html, body {    /*the outer layer of the site and global style attributes*/
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     padding-right: 15px;
 }
-
 #submit {
-    margin-right: 10px;
+    position: fixed right;
+}
+#message {
+    height: 40%;
 }
 #cancel {
     margin-right: 5%;

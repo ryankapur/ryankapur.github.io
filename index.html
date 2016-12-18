@@ -133,17 +133,24 @@
 			<div id="modal-box">
 				<div id="modal-header" class="link">Contact Form</div>
 				<div id="modal-content">
-					<input type = "text" class = "credentials" placeholder = "Name"/>
+
+					<form method="POST" action="http://formspree.io/ryankapur@berkeley.edu">
+					  <input type="email" name="email" class="credentials" placeholder="Your email">
+					  <textarea id="message" name="message" class="credentials" placeholder="Your message"></textarea>
+					  <button type="submit" id="submit" class="button">Send</button>
+					</form>
+
+<!-- 					<input type = "text" class = "credentials" placeholder = "Name"/>
 					<input type = "text" class = "credentials" placeholder = "Email"/>
 					<textarea rows="3" cols="66" class = "credentials"></textarea>
 					<div id="confirm-email">
 						<input type="checkbox" id="confirm-email" class="" checked>Email me a copy<br>
-					</div>
+					</div> -->
 				</div>
 
 				<div id="modal-footer">
-					<div id="submit" class="button">Submit</div>
-					<div id="cancel" class="button">Cancel</div>
+					<!-- <div id="submit" class="button">Submit</div>
+					<div id="cancel" class="button">Cancel</div> -->
 				</div>
 			</div>
 	</div>
