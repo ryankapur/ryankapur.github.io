@@ -1,8 +1,8 @@
-title: "Jekyll-Theme-MDUI"
-description: "A Jekyll theme based on MDUI"
-url: 
+title: "Ryan Kapur"
+description: "A personal site based on MDUI Jekyll theme"
+url: "ryankapur.com"
 baseurl: ""
-author: "KeJun"
+author: "Ryan"
 paginate: 5
 paginate_path: "/blog/page:num/"
 

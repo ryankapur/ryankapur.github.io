@@ -42,7 +42,8 @@
 
 ## Docs
 
-[Docs](http://mdui.kejun.space/#/)(!!!Need Help!!!)
+[Docs](bundle exec jekyll serve
+Could not locate Gemfile or .bundle/ directory(!!!Need Help!!!)
 
 [中文文档](http://mdui.kejun.space/#/zh-cn/)
 
