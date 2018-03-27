@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Jekyll Theme MDUI Editor
-date: 2017-5-30 0:0:0 +0800
-categories: Living
-tags: mdui jekyll theme editor 
-img: https://ooo.0o0.ooo/2017/05/30/592d41ed710a5.jpg
----
-静态博客在线攥写文章不是梦。
+title: My first post
+date: 2018-03-26 16:32:03 -7
+categories: howto
+tags: blog webdev jekyll
+img: https://i.loli.net/2018/03/27/5ab98fcf9368d.png
 
+---
+Welcome to my first blog post.
 * 
 {:toc}
 
